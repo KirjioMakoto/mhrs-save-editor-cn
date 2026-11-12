@@ -3,5 +3,5 @@
 
 ## 创作者
 
-- **KirjioMakoto** · 项目发起与维护，负责功能方向、界面选择和版本发布。
-- **OpenAI Codex** · AI 开发助手，参与存档编辑功能实现、界面设计、测试和 Windows 便携版打包。
+- **[KirjioMakoto](https://github.com/KirjioMakoto)** · 项目发起与维护，负责功能方向、界面选择和版本发布。
+- **[OpenAI Codex](https://github.com/codex)** · AI 开发助手，参与存档编辑功能实现、界面设计、测试和 Windows 便携版打包。
