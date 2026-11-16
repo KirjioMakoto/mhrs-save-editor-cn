@@ -4,7 +4,7 @@
 
 ## 下载与启动
 
-**[下载 Beta 3 完整中文分发包](https://github.com/KirjioMakoto/mhrs-save-editor-cn/releases/download/v0.1.0-beta.3/MHRS-Save-Editor-v0.1.0-beta.3-win64-zh-CN.zip)** · [更新说明](https://github.com/KirjioMakoto/mhrs-save-editor-cn/releases/tag/v0.1.0-beta.3) · [历史版本](https://github.com/KirjioMakoto/mhrs-save-editor-cn/releases)
+**[下载 Beta 4 完整中文分发包](https://github.com/KirjioMakoto/mhrs-save-editor-cn/releases/download/v0.1.0-beta.4/MHRS-Save-Editor-v0.1.0-beta.4-win64-zh-CN.zip)** · [更新说明](https://github.com/KirjioMakoto/mhrs-save-editor-cn/releases/tag/v0.1.0-beta.4) · [历史版本](https://github.com/KirjioMakoto/mhrs-save-editor-cn/releases)
 
 1. 完整解压 ZIP，保留 `MHRSSaveEditor.exe` 同级的 `_internal` 文件夹。
 2. 双击 `MHRSSaveEditor.exe`，无需安装 Python，中文资料已内置。
@@ -21,7 +21,15 @@
 - **任务与解锁**：编辑 NPC 委托支线；普通任务与阶段解锁沿用同一角色前后存档的样本标定机制。
 - **保存与恢复**：保存、另存为、自动备份及完整备份恢复。
 
-## Beta 3 新增功能与验证范围
+## Beta 4 界面焕新
+
+欢迎页、六个功能页、详情面板和编辑弹窗统一采用淡彩卡片风格，搭配橙黄渐变按钮、几何背景、星芒分隔线和四角选中标记。支持浅色、深色和跟随 Windows，继续使用 Kit T. 猫头像。
+
+「工具 → 界面动效」可开启或关闭按钮悬停、切页淡入和详情展开过渡，设置自动保存。切换主题时保留未保存输入、搜索、选择及滚动位置；详情支持折叠，在窄窗口中切换为抽屉。
+
+本次只更新界面与外观设置，不改变存档格式或编辑规则。已检查明暗主题、100%／125%／150% 有效缩放及最小窗口，并用独立副本复测编辑、保存重读、另存为、备份恢复和原有快捷键。实际截图及详细验证范围见[Beta 4 发布说明](https://github.com/KirjioMakoto/mhrs-save-editor-cn/releases/tag/v0.1.0-beta.4)与包内记录。
+
+## NPC 委托与验证范围
 
 NPC 委托支线覆盖本体与曙光的 **85 项委托**，支持中文搜索、状态筛选、多选、修改预览和可选材料补齐。只推进已接取、未交付的委托；保存后仍需回游戏找对应 NPC 正常交付，由游戏发放奖励和处理解锁。
 
@@ -39,3 +47,4 @@ NPC 委托支线覆盖本体与曙光的 **85 项委托**，支持中文搜索�
 
 - **[KirjioMakoto](https://github.com/KirjioMakoto)** · 项目发起与维护，负责功能方向、界面选择和版本发布。
 - **[OpenAI Codex](https://github.com/codex)** · AI 开发助手，参与存档编辑功能实现、界面设计、测试和 Windows 便携版打包。
+
