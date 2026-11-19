@@ -4,7 +4,7 @@
 
 ## 下载与启动
 
-**[下载 Beta 4 完整中文分发包](https://github.com/KirjioMakoto/mhrs-save-editor-cn/releases/download/v0.1.0-beta.4/MHRS-Save-Editor-v0.1.0-beta.4-win64-zh-CN.zip)** · [更新说明](https://github.com/KirjioMakoto/mhrs-save-editor-cn/releases/tag/v0.1.0-beta.4) · [历史版本](https://github.com/KirjioMakoto/mhrs-save-editor-cn/releases)
+**[下载 Beta 5 完整中文分发包](https://github.com/KirjioMakoto/mhrs-save-editor-cn/releases/download/v0.1.0-beta.5/MHRS-Save-Editor-v0.1.0-beta.5-win64-zh-CN.zip)** · [更新说明](https://github.com/KirjioMakoto/mhrs-save-editor-cn/releases/tag/v0.1.0-beta.5) · [历史版本](https://github.com/KirjioMakoto/mhrs-save-editor-cn/releases)
 
 1. 完整解压 ZIP，保留 `MHRSSaveEditor.exe` 同级的 `_internal` 文件夹。
 2. 双击 `MHRSSaveEditor.exe`，无需安装 Python，中文资料已内置。
@@ -15,11 +15,16 @@
 ## 主要功能
 
 - **猎人资料**：修改猎人名、金钱和炎火点数。
-- **道具**：管理道具箱、道具袋和装饰品箱，支持批量修改数量。
+- **道具**：管理道具箱、道具袋和装饰品箱，支持添加 34 种百龙装饰品、批量改量和清零。
 - **装备与护石**：添加、更换、锁定装备，制作或编辑护石。
 - **怪异炼化与探究**：编辑支持范围内的炼化结果和探究任务条件。
 - **任务与解锁**：编辑 NPC 委托支线；普通任务与阶段解锁沿用同一角色前后存档的样本标定机制。
+- **随从**：编辑已雇用艾露猫和牙猎犬的名字、等级、技能和额外记忆格。艾露猫可调整支援类型、行动与攻击目标，牙猎犬可调整战斗站位。
 - **保存与恢复**：保存、另存为、自动备份及完整备份恢复。
+
+## Beta 5 验证范围
+
+已用独立存档副本验证随从和百龙装饰品的编辑、加密保存重读、另存为和备份恢复。随从在游戏内的显示与战斗表现、百龙珠实际镶嵌，以及游戏再次保存后的结果仍待实测。操作说明和界面截图见 [Beta 5 发布说明](https://github.com/KirjioMakoto/mhrs-save-editor-cn/releases/tag/v0.1.0-beta.5)。
 
 ## Beta 4 界面焕新
 
@@ -27,7 +32,7 @@
 
 「工具 → 界面动效」可开启或关闭按钮悬停、切页淡入和详情展开过渡，设置自动保存。切换主题时保留未保存输入、搜索、选择及滚动位置；详情支持折叠，在窄窗口中切换为抽屉。
 
-本次只更新界面与外观设置，不改变存档格式或编辑规则。已检查明暗主题、100%／125%／150% 有效缩放及最小窗口，并用独立副本复测编辑、保存重读、另存为、备份恢复和原有快捷键。实际截图及详细验证范围见[Beta 4 发布说明](https://github.com/KirjioMakoto/mhrs-save-editor-cn/releases/tag/v0.1.0-beta.4)与包内记录。
+Beta 4 只更新界面与外观设置，不改变存档格式或编辑规则。已检查明暗主题、100%／125%／150% 有效缩放及最小窗口，并用独立副本复测编辑、保存重读、另存为、备份恢复和原有快捷键。实际截图及详细验证范围见[Beta 4 发布说明](https://github.com/KirjioMakoto/mhrs-save-editor-cn/releases/tag/v0.1.0-beta.4)与包内记录。
 
 ## NPC 委托与验证范围
 
@@ -47,4 +52,3 @@ NPC 委托支线覆盖本体与曙光的 **85 项委托**，支持中文搜索�
 
 - **[KirjioMakoto](https://github.com/KirjioMakoto)** · 项目发起与维护，负责功能方向、界面选择和版本发布。
 - **[OpenAI Codex](https://github.com/codex)** · AI 开发助手，参与存档编辑功能实现、界面设计、测试和 Windows 便携版打包。
-
